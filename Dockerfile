@@ -33,4 +33,5 @@ RUN buildDeps='xz-utils' \
 
 
 WORKDIR /package
-CMD ['node','.'] 
+CMD ["node","".""]
+ENTRYPOINT ["node","."]
